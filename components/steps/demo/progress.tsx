@@ -8,16 +8,19 @@ const App: React.FC = () => (
     percent={60}
     items={[
       {
-        title: 'Finished',
+        title: 'Analysing Script',
         description,
       },
       {
-        title: 'In Progress',
-        subTitle: 'Left 00:00:08',
+        title: 'Generating videos',
         description,
       },
       {
-        title: 'Waiting',
+        title: 'Generating Voiceover',
+        description,
+      },
+      {
+        title: 'Finalising Video',
         description,
       },
     ]}
